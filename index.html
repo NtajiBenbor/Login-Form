@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="/CSS/app.css" />
+  </head>
+  <body>
+    <main id="right-pane"></main>
+    <section id="left-pane">
+      <form action="#" method="post">
+        <fieldset>
+          <h1>Login Form</h1>
+          <input type="email" placeholder="Email" required class="info" />
+          <input
+            type="password"
+            placeholder="Password"
+            required
+            pattern="[A-Z,0-9]{8,}" class="info"
+          />
+        </fieldset>
+        <fieldset>
+          <label class="remember" for="remember"
+            ><input type="checkbox" id="remember" name="remeber" value="yes" />
+            Remember Me</label><p class="recovery" ><a href="#">Forget Password?</a></p>
+          <input type="submit" class="button">
+        </fieldset>
+        <fieldset class="legend-text">
+            <legend> OR </legend>
+            <button class="button">Login With Facebook </button>
+            <p>Get Membership Benefits. <a href="#">Sign Up</a></p>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
