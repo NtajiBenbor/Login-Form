@@ -15,33 +15,33 @@ h1 {
 }
 
 #right-pane {
-    width: 60vw;
+    width: 55vw;
     margin: none;
-    background: url(/images/minimalist\ setup2.jpg);
+    background: url(/images/pexels-phone-headphones.jpg);
     background-position: center center;
     min-width: 300px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   
 
 }
 
 #left-pane {
-    width: 40vw;
+    width: 45vw;
     margin: none;
-    padding: 30px;
+    padding-top: 40px;
     min-width: 400px;
     background-color: #f4f1de;
 }
 
 form { 
-    width: 100%;
+    width: 85%;
     display: block;
-    margin: 25px auto 25px auto;
+    margin: 10px auto 10px auto;
     min-width: 300px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(1, 42, 20, 0.9);
 }
 
 
@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-    color: #d00000;
+    color: #ff9204;
 }
 
 .recovery {
@@ -90,7 +90,7 @@ fieldset {
     border: none;
     width: 70%;
     margin: 0 auto;
-    padding: none;
+   
 }
 
 legend {
@@ -113,7 +113,7 @@ legend {
 }
 
 input[type="submit"] {
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(0, 0, 0);
     border: none;
     color: #ffffff;
     font-size: 1em;
@@ -135,8 +135,8 @@ button + p {
 }
 
 input[type="submit"]:hover {
-    background-color: aqua;
-    color: black;
+    background-color: #ff9204;
+    color: #ffffff;
     font-weight: 700;
      
 }
