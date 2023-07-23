@@ -70,13 +70,11 @@ form {
 }
 
 a {
-    color: aquamarine;
+    color: #ff9204;;
     text-decoration: none;
 }
 
-a:hover {
-    color: #ff9204;
-}
+
 
 .recovery {
     display: inline-block;
