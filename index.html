@@ -9,7 +9,7 @@
   <body>
     <main id="right-pane"></main>
     <section id="left-pane">
-      <form action="#" method="post">
+      <form action="" method="post">
         <fieldset>
           <h1>Login Form</h1>
           <input type="email" placeholder="Email" required class="info" />
@@ -17,8 +17,9 @@
             type="password"
             placeholder="Password"
             required
-            pattern="[A-Z,0-9]{8,}" class="info"
-          />
+            pattern="[A-Z,0-9,a-z]{8,}" class="info"
+          title="Password must contain a combination at least 8 characters inluding the digist 0-9 and uppercase letters A-Z"/>
+          <!-- <P></P> -->
         </fieldset>
         <fieldset>
           <label class="remember" for="remember"
