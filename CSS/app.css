@@ -22,6 +22,7 @@ h1 {
     min-width: 300px;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     /* background-attachment: fixed; */
   
 
@@ -30,18 +31,20 @@ h1 {
 #left-pane {
     width: 45vw;
     margin: none;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     min-width: 400px;
     background-color: #f4f1de;
+    height: 90vh;
 }
 
 form { 
     width: 85%;
     display: block;
-    margin: 10px auto 10px auto;
+    margin: 30px auto 10px auto;
     min-width: 300px;
     border-radius: 10px;
     background-color: rgba(1, 42, 20, 0.9);
+    height: 90vh;
 }
 
 
@@ -87,7 +90,7 @@ a {
 fieldset {
     border: none;
     width: 70%;
-    margin: 0 auto;
+    margin: 20px auto;
    
 }
 
@@ -130,6 +133,7 @@ button {
 button + p {
     text-align: center;
     margin-top: 30px;
+
 }
 
 input[type="submit"]:hover {
